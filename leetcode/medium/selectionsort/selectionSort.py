@@ -3,9 +3,7 @@ from typing import List
 
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
-        """
-        nums ro'yxatini joyida (in-place) saralaydi.
-        """
+      
         counts = [0, 0, 0]
 
         for color in nums:
