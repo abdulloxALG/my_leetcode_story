@@ -26,6 +26,6 @@ def merge(left, right):
     return result
 
 
-nums = [5, 2, 3, 1, 7, 4, 6]
+nums = [5, 2, 3, 1]
 print("Original:", nums)
 print("Sorted:  ", merge_sort(nums))
