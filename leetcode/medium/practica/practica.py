@@ -101,14 +101,14 @@
 
 # 9.Ismlar orasidan qidirish
 
-# ismlar = []
-# ismKiritish = input("Ism: ")
-# ismlar.append(ismKiritish)
-# topish = ("Izlanayotgan ismni kiriting: ")
-# if topish in ismlar:
-#     print("Topildi",ismlar, topish)
-# else:
-#     print("Topilmadi")
+ismlar = []
+ismKiritish = input("Ism: ")
+ismlar.append(ismKiritish)
+topish = input("Izlanayotgan ismni kiriting: ")
+if topish in ismlar:
+    print("Topildi", topish)
+else:
+    print("Topilmadi")
 
 
 
@@ -116,14 +116,14 @@
 # 10.Mehmonlar royxati
 
 
-mehmon_soni = int(input("Mehmonlar soni: "))
+# mehmon_soni = int(input("Mehmonlar soni: "))
 
-mehmonlar = []
+# mehmonlar = []
 
-for i in range(mehmon_soni):
-    ismi = input(f"Mehmonni yozing {i + 1} ismi: ")
-    mehmonlar.append(ismi)
+# for i in range(mehmon_soni):
+#     ismi = input(f"Mehmonni yozing {i + 1} ismi: ")
+#     mehmonlar.append(ismi)
 
-print("\nJami mehmonlar:", len(mehmonlar))
-print("\nBirinchi mehmon:", mehmonlar[0])
-print("\nOxirgi mehmon:", mehmonlar[-1])
+# print("\nJami mehmonlar:", len(mehmonlar))
+# print("\nBirinchi mehmon:", mehmonlar[0])
+# print("\nOxirgi mehmon:", mehmonlar[-1])
